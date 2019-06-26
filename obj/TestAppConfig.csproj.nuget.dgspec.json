@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\TestAppConfig\\TestAppConfig.csproj": {}
+    "C:\\git\\AzureAppConfig\\AzureAppConfig\\TestAppConfig.csproj": {}
   },
   "projects": {
-    "C:\\git\\TestAppConfig\\TestAppConfig.csproj": {
+    "C:\\git\\AzureAppConfig\\AzureAppConfig\\TestAppConfig.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\TestAppConfig\\TestAppConfig.csproj",
+        "projectUniqueName": "C:\\git\\AzureAppConfig\\AzureAppConfig\\TestAppConfig.csproj",
         "projectName": "TestAppConfig",
-        "projectPath": "C:\\git\\TestAppConfig\\TestAppConfig.csproj",
+        "projectPath": "C:\\git\\AzureAppConfig\\AzureAppConfig\\TestAppConfig.csproj",
         "packagesPath": "C:\\Users\\marc.hoeijmans\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\TestAppConfig\\obj\\",
+        "outputPath": "C:\\git\\AzureAppConfig\\AzureAppConfig\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

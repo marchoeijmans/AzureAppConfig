@@ -19,8 +19,7 @@ namespace TestAppConfig
                     var settings = config.Build();
 
                     config.AddAzureAppConfiguration(options =>
-                        //options.ConnectWithManagedIdentity(settings["AppConfig:Endpoint"]
-                        options.ConnectWithManagedIdentity("https://exampleconfiguration.azconfig.io")
+                        options.ConnectWithManagedIdentity(settings["AppConfig:Endpoint"])
                             .Use("TestApp:Settings:*")
                             .WatchAndReloadAll("TestApp:Settings:Sentinal", TimeSpan.FromSeconds(5)));
                 })
